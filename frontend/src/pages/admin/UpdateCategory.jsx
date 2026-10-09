@@ -29,7 +29,7 @@ const UpdateCategory = () => {
             setCategoryName(data.category.category_name)
         }
     })
-  },[])
+  },[id])
 
   return (
     <>

@@ -20,6 +20,7 @@ const AdminCategory = () => {
    }, [success])
 
    const handleDelete = id => e => {
+    e.preventDefault()
     let answer = confirm("Are you sure you want to delete this category?")
     if(answer){
       deleteCategory(id)
