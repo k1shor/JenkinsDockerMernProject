@@ -79,15 +79,15 @@ pipeline{
     
     post {
         success{
-            echo
+            echo ''
             echo 'Application deployed successfully'
-            echo
+            echo ''
         }
         
         failure{
-            echo
+            echo ''
             echo 'Something went wrong'
-            echo
+            echo ''
         }
     }
     
