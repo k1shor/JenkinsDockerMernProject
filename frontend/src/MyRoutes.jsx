@@ -18,7 +18,7 @@ const MyRoutes = () => {
 
 
 
-                <Route path='category' element={<AdminCategory />} />
+                <Route index element={<AdminCategory />} />
                 <Route path='category/new' element={<AddCategory />} />
                 <Route path='category/edit/:id' element={<UpdateCategory />} />
 
