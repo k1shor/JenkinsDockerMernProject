@@ -1,0 +1,14 @@
+node_modules
+
+dist
+
+.env
+.env.local
+.env.prod
+.env.dev
+
+.log
+.log.*
+
+.git
+.gitignore
