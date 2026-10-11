@@ -22,6 +22,8 @@ const MyRoutes = () => {
                 <Route path='category/new' element={<AddCategory />} />
                 <Route path='category/edit/:id' element={<UpdateCategory />} />
 
+                <Route path='hello' element = {<h1>HELLO WORLD</h1>} />
+
                 {/* </Route> */}
             </Routes>
         </BrowserRouter>
