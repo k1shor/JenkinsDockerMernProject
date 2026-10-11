@@ -71,6 +71,7 @@ pipeline{
         stage('Verify'){
             steps{
                 echo 'Checking containers'
+                echo 'GitHub webhook triggers'
                 
                 bat 'docker compose ps'
             }
